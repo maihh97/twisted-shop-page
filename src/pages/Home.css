@@ -1,0 +1,105 @@
+.intro {
+  display: flex;
+  background-color: black;
+  font-style: italic;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -45px;
+}
+
+.banner-img {
+  width: 35vw;
+  height: 100vh;
+}
+
+.quote {
+  color: white;
+  font-family: 'Libre Caslon Text';
+  font-style: normal;
+  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  60% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  70% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  60% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  70% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  
+}
+
+.intro-choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.intro-p {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+}
+
+button {
+  background-color: #ee6023;
+  border: none;
+  padding: 15px;
+  width: 200px;
+  margin: 10px;
+}
+
+.url {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+

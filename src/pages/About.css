@@ -1,0 +1,38 @@
+.description {
+  margin: 2rem;
+}
+
+h1 {
+  color: #ee6023;
+  font-family: "Libre Caslon Text";
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.abt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.abt-p {
+  width: 50%;
+  font-size: 19px;
+}
+
+.abt-img {
+  height: 300px;
+  width: 400px;
+}
+
+.img-model {
+  height: 400px;
+  width: 400px;
+}
+
+hr {
+  border-bottom: lightgrey;
+}

@@ -1,0 +1,49 @@
+.container {
+  margin: 1rem;
+}
+
+.how-title {
+  text-align: center;
+  font-family: "Libre Caslon Text";
+  font-size: 2rem;
+  color: #ee6023;
+  margin-bottom: 1.5rem;
+}
+
+.instructions-box {
+  display: flex;
+}
+
+.steps {
+  flex-grow: 1;
+  text-align: center;
+  flex-basis: 0;
+  border: 1px solid grey;
+  padding: 0 1.5rem;
+  color: white;
+  background-color: black;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+h3 {
+  margin: 2rem;
+  color: #ee6023;
+}
+
+.icon-how {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.single-img {
+  margin-top: 4.5rem;
+}
+
+#sgl-img {
+  margin-top: 3.5rem;
+}
