@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Twisted Shop Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Twisted Shop Documentation](#twisted-shop-documentation)
+  - [Table of contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Project structure](#project-structure)
+  - [Steps to run](#steps-to-run)
+   
+## Introduction
 
-In the project directory, you can run:
+The `twisted` directory contains the source code and resources for the Twisted project. 
 
-### `npm start`
+Twisted was found to offer a convenient solution to give unwanted clothes another life. It is a service that collects clothes and upcycle them into unique household items such as floor mats, pillows or home decor items. We then either resell them to their owners at a cheaper price or to new owners. Twisted’s customers will get small rewards when giving away their unwanted clothes and be informed of how their clothes are recycled.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![alt text](image.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project structure
 
-### `npm test`
+- **`package.json`**: Lists the dependencies and scripts for the React application.
+- **`public/`**: Contains static files and the main HTML file (`index.html`) for the React app.
+  - `index.html`: The main HTML file that serves as the entry point for the React application.
+  - `manifest.json`: Configuration file for the web app manifest.
+- **`src/`**: Contains the source code for the React application.
+  - `index.css`: Global CSS styles for the application.
+  - `index.js`: The main JavaScript file that renders the React application.
+  - `App.js`: The main application component that sets up routing for different pages.
+  - `pages/`: Contains individual page components like `About.js`, `Home.js`, etc.
+    - `About.js`: A page component that provides information about the project's social and environmental missions.
+  - `components/`: Contains reusable components like `Navbar` and `Footer`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Steps to run
 
-### `npm run build`
+To get started with the Twisted project, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository:**
+     ```sh
+     git clone <repository_url>
+     ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Navigate to the project directory:**
+     ```sh
+     cd twisted
+     ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install dependencies:**
+     ```sh
+     npm install
+     ```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. **Run the app:**
+     ```sh
+     npm run start
+     ```
