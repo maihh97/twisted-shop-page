@@ -1,4 +1,4 @@
-# Twisted Shop Documentation
+# Twisted Shop Page
 
 ## Table of contents
 
